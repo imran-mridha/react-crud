@@ -1,0 +1,9 @@
+.inputfield span{
+  display: none;
+  font-size: 34px;
+}
+
+.inputfield input:invalid[focused=true] ~ span{
+display: block;
+color: red;
+}
